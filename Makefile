@@ -2,6 +2,11 @@ $(shell [ -d ./build ] || mkdir ./build)
 
 VERSION=$(shell lsb_release -r | cut -f2)
 
+all:
+	make build-stable
+	make build-ptb
+	make build-canary
+
 build-stable:
 	@echo 'Building stable package...'
 	cd stable && sh build.sh
