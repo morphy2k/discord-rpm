@@ -1,5 +1,5 @@
 Name:           discord
-Version:        0.0.3
+Version:        0.0.4
 Release:        1%{?dist}
 Summary:        Discord stable release
 
@@ -40,6 +40,9 @@ install -m 644 discord.desktop %{buildroot}/%{_datadir}/applications/
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+
+* Tue Jan  16 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.4
 
 * Tue Dec  19 2017 Markus Wiegand <mail@morphy2k.io>
 - Init
