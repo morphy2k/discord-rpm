@@ -1,5 +1,5 @@
 Name:           discord-canary
-Version:        0.0.45
+Version:        0.0.53
 Release:        1%{?dist}
 Summary:        Experimental canary build for Discord
 
@@ -40,6 +40,21 @@ install -m 644 discord-canary.desktop %{buildroot}/%{_datadir}/applications/
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+
+* Wed Jul  11 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.53
+
+* Thu Jun  14 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.52
+
+* Wed May  23 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.51
+
+* Sun May  6 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.49
+
+* Wed May  2 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.48
 
 * Tue Jan  16 2018 Markus Wiegand <mail@morphy2k.io>
 - Update to 0.0.45

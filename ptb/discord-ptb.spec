@@ -1,5 +1,5 @@
 Name:           discord-ptb
-Version:        0.0.8
+Version:        0.0.9
 Release:        1%{?dist}
 Summary:        Discord Public Test Build
 
@@ -40,6 +40,9 @@ install -m 644 discord-ptb.desktop %{buildroot}/%{_datadir}/applications/
 rm -rf $RPM_BUILD_ROOT
 
 %changelog
+
+* Wed Jul  11 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.9
 
 * Mon Apr  23 2018 Markus Wiegand <mail@morphy2k.io>
 - Update to 0.0.8
