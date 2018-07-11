@@ -41,6 +41,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 
+* Wed Jul  11 2018 Markus Wiegand <mail@morphy2k.io>
+- Update to 0.0.5
+
 * Tue Jan  16 2018 Markus Wiegand <mail@morphy2k.io>
 - Update to 0.0.4
 
